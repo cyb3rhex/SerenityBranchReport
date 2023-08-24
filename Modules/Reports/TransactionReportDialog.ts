@@ -9,7 +9,7 @@ namespace MyProject.Reports {
 
             this.form = new TransactionReportForm(this.idPrefix);
 
-            // When button is clicked, fetch report.
+            
             this.byId('ReportButton').click(e => {
                 this.loadReport();
             });
