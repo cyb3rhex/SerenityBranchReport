@@ -15,7 +15,7 @@ namespace MyProject.Services
 
     public class TransactionReportRow
     {
-        // Add other fields you want to display in your report.
+        
         public int BranchId { get; set; }
         public DateTime TransactionDate { get; set; }
     }
@@ -38,7 +38,7 @@ namespace MyProject.Services
                 {
                     t.BranchId,
                     t.TransactionDate
-                    // Add other fields as needed.
+                    
                 });
 
             return new TransactionReportResponse

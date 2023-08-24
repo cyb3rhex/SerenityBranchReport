@@ -23,7 +23,7 @@ namespace MyProject.Reports {
                     EndDate: this.form.EndDate.valueAsDate
                 },
                 onSuccess: response => {
-                    // Render report to table or any component.
+                    
                 }
             });
         }
